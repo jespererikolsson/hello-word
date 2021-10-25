@@ -18,6 +18,9 @@ jobs:
       run: |
         pip install pip -U
         pip install flake8
+    - name: Run ls -la in workspace
+      run: |
+        ls -la
     - name: Run flake8
       run: |
         flake8 .
