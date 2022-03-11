@@ -1,7 +1,6 @@
 name: Test-repository-dispatch-event
 on:
-  repository_dispatch:
-    types: [on-demand-test]
+  - repository_dispatch
 
 jobs:
   Test:
